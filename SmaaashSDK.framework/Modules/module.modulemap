@@ -1,0 +1,11 @@
+framework module SmaaashSDK {
+  umbrella header "SmaaashSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module SmaaashSDK.Swift {
+    header "SmaaashSDK-Swift.h"
+    requires objc
+}
